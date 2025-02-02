@@ -1,9 +1,10 @@
+import { PaginaEjemplo } from "./app/pages"
 
 function App() {
 
   return (
     <>
-      
+      <PaginaEjemplo />
     </>
   )
 }
