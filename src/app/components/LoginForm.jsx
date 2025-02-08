@@ -3,9 +3,9 @@ import React from 'react'
 export const LoginForm = () => {
   const imageUrl = "https://static.vecteezy.com/system/resources/previews/017/566/984/non_2x/operating-expenses-glyph-two-color-icon-vector.jpg";
   return (
-    <div className=' flex flex-col items-center justify-center h-screen bg-radial from-blue-400 from-40% to-blue-100'>
+    <div className=' flex flex-col items-center justify-center h-screen '>
       <form>
-        <div className=" bg-blue-200 flex flex-col items-center justify-center shadow-2xl shadow-gray-950 p-5 rounded-lg w-80 ">
+        <div className=" bg-blue-200 flex flex-col items-center justify-center shadow-lg shadow-gray-800 p-5 rounded-lg w-80 ">
           <img className=' w-40 p-3 rounded-full' src={imageUrl} alt="Logo" />
           <h1 className='text-2xl'>Bienvenido</h1>
           <div className='p-2 flex flex-col items-start w-full'>
